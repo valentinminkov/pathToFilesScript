@@ -37,8 +37,10 @@ export PATH="$HOME/scripts:$PATH"
 To run the script, navigate to the directory you want to add path comments to and run the following command:
 
 ```
-pathToName.sh
+pathToFile.sh
 ```
+
+**( If you have named your script differently, use the name of your script. )**
 
 The script will then add a comment to the top of all non-empty JavaScript, CSS, HTML, and SCSS files in the directory and its subdirectories, excluding any files in the node_modules, build, dist, and public directories. It will also print a message indicating how many files were updated and how many empty files were ignored.
 
